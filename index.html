@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,7 +11,7 @@
     <link href="./styles/vegas.css" rel="stylesheet">
     <link href="./styles/style.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/font-awesome/css/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -23,8 +24,35 @@
           <div class="collapse navbar-collapse">
             <ul style="position:relative; top:11px;" class="nav navbar-nav navbar-right">
               <li class="active"><a href="/">Home</a></li>
-              <li><a href="/blog">About Us</a></li>
-              <li><a href="/gallery">Products</a></li>
+              <li><a href="/blog" data-toggle="dropdown">About Us<span class = "fa fa-angle-down caret-pos"></span>
+                  <ul class="dropdown-menu dropdown-aboutus">
+                    <li><a href="#" class = "aboutus-list">Who We Are</a></li>
+                    <li><a href="#" class = "aboutus-list">Our Service</a></li>
+                    <li><a href="#" class = "aboutus-list">Case Study of the Month</a></li>
+                  </ul></a></li>
+              <li><a href="/gallery" data-toggle="dropdown">Products<span class = "fa fa-angle-down caret-pos"></span>
+                  <ul class="dropdown-menu dropdown-product">
+                    <div class="col-md-6">
+                      <div class="left-list">
+                        <div class="list-title">Sports</div>
+                      </div>
+                      <li class="product-list"><a href="#" class = "product-list">Badminton</a></li>
+                      <li class="product-list"><a href="#" class = "product-list">BasketBall</a></li>
+                      <li class="product-list"><a href="#" class = "product-list">Cricket</a></li>
+                      <li class="product-list"><a href="#" class = "product-list">Football</a></li>
+                      <li class="product-list"><a href="#" class = "product-list">Hockey</a></li>
+                      <li class="product-list"><a href="#" class = "product-list">Multi</a></li>
+                      <li class="product-list"><a href="#" class = "product-list">Other Sports</a></li>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="right-list">
+                        <div class="list-title">Leisure</div>
+                      </div>
+                      <li class="product-list"><a href="#">Children's Play Area</a></li>
+                      <li class="product-list"><a href="#">Landscape</a></li>
+                      <li class="product-list"><a href="#">Golf</a>					</li>
+                    </div>
+                  </ul></a></li>
               <li><a href="/contact">Media</a></li>
               <li><a>Field in a Box</a></li>
               <li><a>Pay and Play</a></li>
@@ -37,7 +65,32 @@
     <div id="body">
       <div id="vegas"></div>
       <div class="container vegas-text"> 
-        <h1 id="vegas-text">Consistency in performance, greater comfort and safety. </h1>
+      </div>
+      <div id="text-carousel" data-ride="carousel" class="carousel slide">
+        <div class="col-xs-offset-3 col-xs-6 text-position">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="carousel-content">
+                <p class="moving-text">Consistency in performance, greater comfort and safety.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-content">
+                <p class="moving-text">Designed to replicate the best natural grass fields.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-content">
+                <p class="moving-text">Delivering a twelve-month season, rain or shine.				</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-content">
+                <p class="moving-text">Fast pitches, true ball roll and increased player safety.						</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="container-color section-margin">
         <div class="container">
@@ -64,7 +117,7 @@
       <section id="works" class="works section-margin">
         <div class="container">
           <div class="section-header">
-            <h2 class="dark-text">Portfolio</h2>
+            <h2 class="dark-text">Product Range</h2>
             <h6>	We have designed and developed many awesome products. Just take a look. </h6>
           </div>
           <div class="row projects">
@@ -272,19 +325,18 @@
             <div class="col-md-3 image-margin"><a href="#"><img src="./images/Certificate/certificate-6.jpg"></a></div>
             <div class="col-md-3 image-margin"><a href="#"><img src="./images/Certificate/certificate-7.jpg"></a></div>
             <div class="col-md-3 image-margin"><a href="#"><img src="./images/Certificate/certificate-8.jpg"></a></div>
-            <div class="col-md-3 image-margin"><a href="#"><img src="http://demotbs.com/dev/wp/altius/wp-content/uploads/2016/10/certificate-7.jpg"></a></div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="touch section-margin">
           <div class="section-header text-white">
-            <h2 class="text">stay in touch</h2>
-            <h6>Sign Up for Email Updates on News and Offers</h6>
+            <h2 class="dark-text">newsletter</h2>
+            <h6>Subscribe to our newsletter</h6>
           </div>
           <div class="touch-input">
             <input type="text" placeholder="Enter email" class="input-box">
-            <button type="submit" class="btn btn-md btn-custom">Submit																					</button>
+            <button type="submit" class="btn btn-md btn-custom">Subscribe																					</button>
           </div>
         </div>
       </div>
@@ -292,7 +344,16 @@
     <footer>
       <div class="container">
         <div class="col-md-5 company-details"> 
-          <div class="icon-top"><i class = "fa fa-map-marker red-text glype-size" style = "display: block; font-size : 30px;"></i> PO Box 16122 Collins Street West, Victori 8007 Australia</div>
+          <div class="icon-top"><i class = "fa fa-map-marker red-text glype-size" style = "display: block; font-size : 30px;"></i>
+            <div class="col-md-6">
+              <div class="office-text">Corporate Office</div>
+              <div class="office-addr">38A/2, Jyotish Roy Road<br>Kolkata -700053, India</div>
+            </div>
+            <div class="col-md-6">
+              <div class="office-text corp-addr">Sales Office</div>
+              <div class="office-addr office-marg">B1/30, Hauz Khas,<br>Aurobindo Marg,<br>New Delhi -110016, India	</div>
+            </div>
+          </div>
         </div>
         <div class="col-md-2 company-details">
           <div class="icon-top"><i class="fa fa-envelope green-text glype-size" style = "display: block; font-size : 30px;"></i> contact@designlab.co</div>
