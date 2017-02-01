@@ -654,12 +654,12 @@ i {
     font-size: 16px;
 }
 .office-addr{
-    text-align: left;
+    /*text-align: left;*/
     margin-top: 20px;
-    padding-left: 15px;
+    /*padding-left: 15px;*/
 }
 .office-marg{
-    padding-left: 38px;
+    /*padding-left: 38px;*/
 }
 .ph-number{
     margin: 10px 0;
@@ -692,7 +692,6 @@ i {
     margin-left: 8px;
 }
 .aboutus-list{
-    margin: 10px 0;
         display: block;
     width: 100%;
     padding: 10px;
@@ -716,7 +715,7 @@ i {
     background-color: transparent !important;
 }
 .dropdown-product{
-    width : 350px;
+    width : 525px;
     padding: 20px !important;
     border-radius: 5px;
 }
@@ -743,11 +742,16 @@ i {
 .product-list a{
     text-decoration: none;
 } 
+.product-ul{
+    list-style: none;
+}
+.product-ul li ul{
+    margin-left: 25px;
+}
+.product-list1:hover{
+    margin-left: 15px !important;
 
-
-
-
-
+}
 .carousel-content {
     color:black;
     display:flex;
@@ -1264,3 +1268,164 @@ div.wpcf7-response-output {
  .email-margin{
      margin-top: 15px;
  }
+
+/*///////////////////////Project Pages////////////////*/
+
+.h1{
+                margin-top: 10px;
+                padding-left: 20px;
+                font-size: 14px;
+            }
+
+          .h2{
+             text-align: center;
+             margin:0px;
+             
+             } 
+
+        .h4{
+                 padding-left: 40px;
+                 color: #0770cb;
+                 margin-top:10px;
+                 margin-bottom: 0px;
+             }
+        .h5{
+                
+                 color: #0770cb;
+                 margin:20px 0;
+                 float: left;
+
+             }
+
+        #d{
+            margin:0px;
+            background-color:rgba(202,199,199,0.31);
+            height: 450px;
+        }  
+
+         
+         #d1{
+                 margin-left: 150px;
+                 margin-right: 150px;
+                 height: 500px;
+                 
+                
+                 
+             }
+             #d4{
+                 margin-left: 150px;
+                 margin-right: 150px;
+                 height: 400px;
+                 
+            
+                 
+             } 
+
+          #d2{
+             
+             height:400px;
+             width:310px;
+             float:left;
+             
+             }
+
+          #d3{
+             
+             height:400px;
+             width:310px;
+             position:absolute;
+             top: 913px;
+             left: 485px;
+            
+             
+            }
+
+          #d5{
+             
+             margin: 0px;
+             
+             
+            }
+
+        #d6{
+            position: absolute;
+            top: 488px;
+            left: 300px;
+            margin-top: 50px;
+            height: 300px;
+            width: 250px;
+            border: 2px solid gray;
+        }
+
+        #d7{
+            position: absolute;
+            top: 488px;
+            left: 560px;
+            margin-top: 50px;
+            height: 300px;
+            width: 250px;
+            border: 2px solid gray;
+        }
+
+        #d8{
+            position: absolute;
+            top: 488px;
+            left: 820px;
+            margin-top: 50px;
+            height: 300px;
+            width: 250px;
+            border: 2px solid gray;
+        }
+
+        #d9{
+             height:400px;
+             width:380px;
+             position:absolute;
+             top: 913px;
+             left: 810px;
+             
+        }
+        #d10{
+            width: 60%;
+            margin: 0 20%;
+            height: 55px;
+            border: 1px solid lightgray;
+        }
+
+           #p1{
+             
+             color: goldenrod !important;
+             font-size: 17px;
+             }
+             .ul{
+                 list-style: none;
+                
+             }
+             #p6{
+                  padding-top:10px;
+             margin-top:0px;
+             font-size:14px;
+                 color: #585858;
+             }
+
+            #p2{
+             margin-bottom: 0px;
+             font-size: 14px;
+             color: gray;
+            }
+
+            #p3{
+                position: relative;
+                bottom: 1px;
+                font-size: 14px;
+                color: gray;
+            }
+            #p4{
+                position: relative;
+             font-size: 14px;
+             color: gray;
+            }
+          
+         .fa-spacing{
+                text-indent: -20px;
+            }
