@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.breadcram {
+    text-transform: capitalize;
+}
+.breadcram {
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.coninfo {
+    padding: 35px 0;
+}
+.coninfo h3 {
+    font-size: 20px;
+    border-bottom: 2px solid #737373;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.contAdd h5 {
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #0872c8;
+}
+.col-sm-4 .contAdd p, .col-sm-4.ftradd p {
+    font-weight: 400 !important;
+}
+.col-sm-4 p {
+    font-weight: 600 !important;
+}
+.contAdd p {
+    margin-bottom: 20px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+b, strong {
+    font-weight: 700;
+}
+
+iframe {
+    border: none;
+}
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+}
+div.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.confrm .form-group {
+    margin-bottom: 10px;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+.confrm .form-control {
+    border-radius: 0;
+}
+
+
+.confrm .btn {
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    background: #0872c8;
+    border: none;
+    border-radius: 0;
+}
+div.wpcf7 .ajax-loader {
+    visibility: hidden;
+    display: inline-block;
+    background-image: url(../../images/ajax-loader.gif);
+    width: 16px;
+    height: 16px;
+    border: none;
+    padding: 0;
+    margin: 0 0 0 4px;
+    vertical-align: middle;
+}
+div.wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+}
+
+.wpcf7-display-none {
+    display: none;
+}
+.confrm textarea {
+    height: 120px;
+}
