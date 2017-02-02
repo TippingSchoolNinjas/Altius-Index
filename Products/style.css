@@ -1,0 +1,250 @@
+* { margin: 0; padding: 0; }
+img { max-width: 100%; }
+.no-padding { padding: 0 }
+.center, .center p { text-align: center!important; }
+.right { float: right; }
+.left { float: left; }
+p { text-align: justify; }
+body { font-family: 'Open Sans', sans-serif; }
+
+ 
+.bTitle{text-align:center;padding-top: 15px;}
+.bTitle h2{font-size:20px;text-transform:uppercase;padding-bottom: 10px;}
+
+.whopage {padding: 40px 0;}
+.whopage p{ color:#5a5a5a; font-size:12px; line-height:1.9;margin-top: 20px;}
+.whopage p span{ text-align:center; display:block;}
+
+.ProList {
+    border: 1px solid #0770cb;
+    padding: 30px;
+        min-height:400px;
+            margin: 50px 0;
+}
+.proPage p {
+    text-align: center;
+}
+.ProList h4 {
+    color: #0770cb;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0770cb;
+    margin-bottom: 12px;
+}
+.bList{padding-top: 15px;}
+.bList li {color:#808080;padding-bottom: 12px;position: relative;    padding-left: 36px;}
+
+.bList li:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 5px;
+    height: 30px;
+    width: 30px;
+    background:url(../images/list-Aerow.jpg) no-repeat;
+}
+
+
+@media only screen and ( max-width: 1200px ) {
+.container { width: 97%; }
+}
+
+
+@media only screen and ( max-width:922px ) {
+    .container { width: 97%; }
+    
+}
+
+
+
+@media only screen and ( max-width:850px ){
+    .bgproject .owl-carousel-3 img {width: 20%;}
+.bTitle,.bTitle h2{ padding:0;}
+
+    }
+    
+@media only screen and ( max-width:768px ) {
+.bTitle{ padding:0;}}
+@media only screen and ( max-width:767px ) {
+
+/* menu close*/
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\f00d";
+    color: #000;
+}
+
+#navigation ul { padding-right:0;}
+#navigation{margin-top: 0;width: 100%;padding-top: 0;padding-bottom: 0;}
+#navigation ul.menu{width:100%; position: absolute;left: 0;top:-9px;z-index: 999;background: #f2f2f2;}
+.mobile-menu {display:block;}
+#navigation li {width:100%;background:none;padding-left:0;border-bottom: 1px solid #ccc; margin-left:0; list-style:none}
+#navigation li a {display:block;border-bottom:none;line-height:30px; margin:0; padding-left:25px;}
+#navigation li a:hover, #navigation li.active a { background: #0872c8; color:#fff; }
+#navigation > ul > li:hover > ul {display:none;}
+#navigation > ul > li span {width:45px;height:41px;background:url(../images/iconDown.png) no-repeat 50% #fff;cursor:pointer;top:0;border:none;right:0;z-index:1234}
+#navigation > ul > li > ul {position:relative;width:100%;}
+#navigation ul.menu > li.active > a:after{    left: 0; height: 100%; top: 0; width: 7px;}
+
+
+#navigation li a{padding:0 12px}
+
+
+
+}
+
+
+
+
+@media only screen and ( max-width: 640px ) {
+}
+
+@media only screen and ( max-width: 480px ) {
+
+}
+
+@media only screen and ( max-width: 380px ) {
+    
+    
+
+    }
+
+
+/************************* gkt css for about us page****************/
+.well_text p { text-align:center; font-size:14px;}
+ .our_servic {
+    padding-bottom: 60px; padding-top:40px;
+}
+.our_servic .bTitle {
+    margin-bottom: 40px;
+}
+.our_servic figure {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #e0a240;
+    float: left;
+    position: absolute;
+left: 70px;
+    top: 0;
+}
+.our_servic .col-sm-6:nth-of-type(2n+1){
+    clear:left;
+}
+.our_servic .col-sm-6 {
+    position: relative;
+    margin-bottom: 35px;
+    padding: 0 70px;
+    }
+.our_servic .row {
+    margin: 0 -70px;
+}
+.our_servic figcaption {
+    padding-left: 125px;
+}
+.our_servic figcaption h2 {
+    font-size: 20px;
+    color: #0872c8;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+    
+ .products_list{ padding-bottom:80px;}
+ .products_list ul {}
+.products_list li {
+    width: 33.33%;
+    float: left;
+    padding: 8px;
+}
+.products_list li a {
+    display: block; overflow:hidden;
+    position: relative;
+}
+ .products_list li img {
+      -webkit-transition: 0.4s ease;
+    transition: 0.4s ease; width:100%;
+    }
+    
+ .products_list li a:hover img {
+ -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    }
+    
+.products_list li a strong {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 7px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+.whopage p {
+ 
+    font-size: 14px;
+   
+}
+ 
+@media only screen and ( max-width: 991px ) {
+.our_servic .row {
+    margin: 0 15px;
+}
+.our_servic .col-sm-6 {
+ 
+    padding: 0 15px;
+}
+.our_servic figure {
+ 
+left: 0px;
+ 
+}
+.products_list li {
+    width: 50%;
+    float: left;
+    padding: 8px;
+}
+.products_list li a strong {
+   
+    font-size: 18px;
+}
+}
+@media only screen and ( max-width: 600px ) {
+
+.our_servic figure {
+    left: 0px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    margin-bottom: 24px;
+}
+.our_servic figcaption {
+    padding-left: 0;
+    text-align: center;
+}
+.our_servic figcaption p{
+ 
+    text-align: center;
+}
+
+}
+ @media only screen and ( max-width: 480px ) {
+ .products_list li {
+    width: 100%;
+    float: none;
+    padding: 8px;
+}
+.products_list li a strong {
+   
+    font-size: 18px;
+}
+ }
+
+    
+    
