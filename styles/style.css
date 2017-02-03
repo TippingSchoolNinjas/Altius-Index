@@ -667,7 +667,7 @@ i {
 /*//////////////NavBar//////////////*/
 #main-nav{
     width: 100%;
-    padding: 0 100px;
+    padding: 0 15px;
 }
 .navbar-details{
     background-color: #fff;
@@ -724,7 +724,7 @@ i {
     margin: 5px 0;   
 }
 .product-list:hover{
-    margin-left: 10px;
+    margin-left: 5px;
     text-decoration: none;
     color: #262626;
 }
@@ -828,6 +828,10 @@ i {
     padding: 0;
     margin: 0;
 }
+.myImages{
+    width: 375px;
+    height: 300px;
+}
 
 /*///////////////////Serives/////////*/
 
@@ -845,17 +849,11 @@ i {
     max-width: 100%;
 }
 
-.breadcram {
-    margin-top: 20px;
-    margin-left: 2%;
-}
 
 
 
 
-.our_servic{
-    padding-top: 15px;
-}
+
 
 .our_servic .row{
     margin: 0 -70px;
@@ -911,10 +909,7 @@ i {
     max-width: 100%;
 }
 
-.breadcram {
-    margin-top: 20px;
-    margin-left: 2%;
-}
+
 
 
 
@@ -958,16 +953,12 @@ i {
 
 .breadcram {
     margin-top: 20px;
-    margin-left: 2%;
+    margin-left: 0;
 }
 
 
 
-.proPage h5{
-    color: #337ab7;
-    text-align: center;
-    font-weight: 600;
-}
+
 
 .proPage .side h5{
     text-align: left;
@@ -984,8 +975,6 @@ i {
 
 .products_list{
     padding-bottom: 40px;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .products_list ul{
@@ -1021,9 +1010,6 @@ i {
 .sano_li{
 text-align:center;    
 margin-bottom: 2%;
-width: 96%;
-margin-left: 3%;
-margin-top: 20px;
 }
 
 .TopImg{
@@ -1154,13 +1140,8 @@ width:1100px;
     padding: 0;
 }
 
-.breadcram {
-    text-transform: capitalize;
-}
-.breadcram {
-    margin-top: 20px;
-    margin-left: 2%;
-}
+
+
 
 
 
@@ -1408,6 +1389,7 @@ div.wpcf7-response-output {
              margin-bottom: 0px;
              font-size: 14px;
              color: gray;
+             text-align: left;
             }
 
             #p3{
@@ -1467,7 +1449,6 @@ img { max-width: 100%; }
 .center, .center p { text-align: center!important; }
 .right { float: right; }
 .left { float: left; }
-p { text-align: justify; }
 body { font-family: 'Open Sans', sans-serif; }
 
  
@@ -1483,7 +1464,7 @@ body { font-family: 'Open Sans', sans-serif; }
             margin: 50px 0;
 }
 .proPage p {
-    text-align: center;
+    text-align: left;
 }
 .ProList h4 {
     color: #0770cb;
@@ -1582,23 +1563,11 @@ body { font-family: 'Open Sans', sans-serif; }
 
 /************************* gkt css for about us page****************/
 .well_text p { text-align:center; font-size:14px;}
- .our_servic {
-     padding-top:40px;
-}
+ 
 .our_servic .bTitle {
     margin-bottom: 40px;
 }
-.our_servic figure {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 4px solid #e0a240;
-    float: left;
-    position: absolute;
-left: 70px;
-    top: 0;
-}
+
 .our_servic .col-sm-6:nth-of-type(2n+1){
     clear:left;
 }
@@ -1606,6 +1575,7 @@ left: 70px;
     position: relative;
     margin-bottom: 35px;
     padding: 0 70px;
+    height: 180px;
     }
 .our_servic .row {
     margin: 0 -70px;
@@ -1714,5 +1684,18 @@ left: 0px;
 }
  }
 
+ /*//////////////Final Touch/////////*/
+
+ .content-products{
+     text-align: left;
+ }
+ .volley-images{
+     padding-left : 25%;
+ }
+.oth-images{
+    width: 300px;
+    height: 225px;
+    cursor: default;
+}
     
   
